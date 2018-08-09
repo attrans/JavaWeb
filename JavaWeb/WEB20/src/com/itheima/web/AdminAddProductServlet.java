@@ -48,6 +48,7 @@ public class AdminAddProductServlet extends HttpServlet {
 			e.printStackTrace();
 		}
 		
+		//转发
 		response.sendRedirect(request.getContextPath()+"/adminProductList");
 		
 	}
